@@ -1,0 +1,49 @@
+# 🛒 Power BI Maven Market Dashboard
+
+📊 **Interactive Power BI project** designed to analyze Maven Market’s sales, profit, and customer performance using data-driven storytelling.
+
+---
+
+## 🌟 **Overview**
+This project explores **key business metrics** — revenue, profit, and customer trends — through powerful and visually engaging Power BI dashboards.  
+It demonstrates **data cleaning, modeling, DAX calculations**, and interactive **slicers and filters** to support better decision-making.
+
+---
+
+## 🧭 **Key Insights**
+- 💰 Total Revenue and Profit trends by year, quarter, and product category  
+- 🛍️ Product-wise performance and order quantity comparison  
+- 🌎 Regional sales distribution visualized through map insights  
+- 👥 Customer segmentation based on income, education, and priority level  
+- 📈 Return rate analysis
+
+## 🧩 **Project Structure**
+MavenMarket-PowerBI/
+│
+├── 📄 README.md # Project overview and documentation
+├── 📄 LICENSE # Open-source MIT License
+├── 📄 .gitattributes # File attributes for Git tracking
+│
+├── 📂 pbix/ # Power BI project files
+│ └── Maven_Market_Project.pbix
+│
+├── 📂 Assets/ # Screenshots and visuals for README
+│ ├── dashboard_overview.png
+│ ├── regional_sales_map.png
+│ └── customer_analysis.png
+│
+├── 📂 Data/ # Sample dataset (if shareable)
+│ └── maven_market_sample.csv
+│
+└── 📂 Documentation/ # Supporting documents
+├── Project_Report.pdf
+└── Data_Model_Structure.png
+
+Conclusion
+This project is an Interactive Power BI Dashboard built to analyze the "Maven Market" dataset. Its primary purpose is to transform raw data into actionable business intelligence.
+
+Key Deliverables & Purpose:
+
+Core Focus: The dashboard provides key insights into business performance, specifically tracking Revenue, Profit, and Customer metrics.
+
+Output: It delivers these insights through a set of engaging and interactive visualizations, allowing users to explore the data dynamically (e.g., by filtering for specific time periods, product categories, or regions).
