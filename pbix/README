@@ -28,16 +28,13 @@ MavenMarket-PowerBI/
 │ └── Maven_Market_Project.pbix
 │
 ├── 📂 Assets/ # Screenshots and visuals for README
-│ ├── dashboard_overview.png
-│ ├── regional_sales_map.png
-│ └── customer_analysis.png
+│ ├── Sales dashboard_overview.png
+│ ├── Store performancep.png
+│ └── customer Dashboard.png
 │
-├── 📂 Data/ # Sample dataset (if shareable)
+├── 📂Maven Market Raw Data/ # Sample dataset (if shareable)
 │ └── maven_market_sample.csv
-│
-└── 📂 Documentation/ # Supporting documents
-├── Project_Report.pdf
-└── Data_Model_Structure.png
+
 
 Conclusion
 This project is an Interactive Power BI Dashboard built to analyze the "Maven Market" dataset. Its primary purpose is to transform raw data into actionable business intelligence.
