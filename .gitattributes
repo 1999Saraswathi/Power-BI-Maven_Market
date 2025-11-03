@@ -1,0 +1,46 @@
+# Set automatic normalization for text files
+* text=auto
+
+# Force consistent EOL on checkouts (normalize to LF in repo)
+# For Windows team members, Git will convert to CRLF on checkout if core.autocrlf is true.
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+
+# Mark binary files (do not attempt text diffs)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.pbix binary      # Power BI files are binary — prevents noisy diffs
+*.exe binary
+*.dll binary
+
+# Treat Office files and other large binaries as binary
+*.xlsx binary
+*.docx binary
+*.pptx binary
+
+# Use custom diff driver for jupyter notebooks if desired (not configured here)
+*.ipynb diff=ipynb
+
+# Avoid counting build artifacts in linguist (GitHub language stats)
+/vendor/** linguist-vendored
+/build/** linguist-vendored
+/dist/** linguist-vendored
+
+# Don't include large non-source files in archives created by GitHub (optional)
+*.pbix export-ignore
+*.psd export-ignore
+*.ai export-ignore
+
+# Ensure text-based config files are normalized
+*.yml text
+*.yaml text
+*.toml text
+*.md text
+
+# Use Git LFS for large files (requires setup) — example entries if you use LFS
+# *.pbix filter=lfs diff=lfs merge=lfs -text
+# *.zip  filter=lfs diff=lfs merge=lfs -text
